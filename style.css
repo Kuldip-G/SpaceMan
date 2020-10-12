@@ -1,0 +1,62 @@
+.grid{
+    width:400px;
+    height: 600px;
+    /* background-color: lightgreen; */
+    background-image: url(Images/spaceback.jpeg);
+    position: relative;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;   
+    z-index: 10;
+}
+
+.home{
+    width:400px;
+    height: 600px;
+    /* background-color: lightgreen; */
+    background-image: url(Images/spaceback.png);
+    position: relative;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;   
+}
+
+.spaceman{
+    background-image: url(Images/Yellow\ \(2\).png); 
+    width: 60px;
+    height: 85px;
+    /* background-color:crimson; */
+    position: absolute;
+   
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    /* background-color: rgb(93, 116, 93); */
+    background-image: url(Images/marble.png);
+    position: absolute;
+}
+
+img{
+    margin: 50px 20px 20px 20px;
+}
+
+button{
+  margin-top: 20px;
+  line-height: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0 40px;
+  background: rgba(76, 103, 119, 0.774);
+  border: none;
+  color: white;
+}
+button:hover {
+  background: rgb(11, 161, 91);
+}
